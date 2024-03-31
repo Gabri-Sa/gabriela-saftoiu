@@ -5,22 +5,17 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin-top: 100px;
 }
 
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
-  line-height: 1.2;
-  font-weight: 500;
 }
 
 h1 {
   font-size: 96px;
-  display: block;
 }
 
 h2 {
@@ -33,12 +28,8 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -49,19 +40,23 @@ p {
 
 .navigation-links a {
   margin: 20px;
+}
+
+.primary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-.about-link {
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -73,7 +68,6 @@ p {
 }
 
 .about-paragraphs {
-  display: flex;
   margin: 30px 0;
 }
 
@@ -91,19 +85,4 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-}
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
 }
